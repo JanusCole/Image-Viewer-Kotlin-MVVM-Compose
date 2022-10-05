@@ -21,14 +21,6 @@ In this repo you'll find:<br>
 • Add accessibility strings to input widgets<br>
 • Fixed text overflow and scrolling bugs on the Image Detail screen<br>
 
-
-
-• Implement accessibility<br>
-• Complete tests<br>
-• Implement a snazzy progress bar<br>
-• Create dependency version values<br>
-• Implement error handling<br>
-
 Known Bugs:
 
 • The Search button stops working when the user returns from the Image Detail screen. No idea what's up with that.<br>
