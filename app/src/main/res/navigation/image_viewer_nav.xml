@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/image_viewer_nav"
+    app:startDestination="@id/mainFragment"
+    >
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.januscole.kotlinscratchpad.ui.search.SearchFragment"
+        android:label="MainFragment"
+        >
+        <action
+            android:id="@+id/action_go_to_detail_fragment"
+            app:destination="@id/detailFragment"
+            >
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.januscole.kotlinscratchpad.ui.detail.DetailFragment"
+        android:label="DetailFragment"
+        >
+        <action
+            android:id="@+id/action_go_to_main_fragment"
+            app:destination="@id/mainFragment"
+            />
+        <argument
+            android:name="link"
+            app:argType="string" />
+    </fragment>
+</navigation>

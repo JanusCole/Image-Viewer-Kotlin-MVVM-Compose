@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Flikr Image Viewer</string>
+    <string name="image_title_label">Title: </string>
+    <string name="image_author_label">Author: </string>
+    <string name="image_description_label">Description: </string>
+    <string name="return_label">Return</string>
+    <string name="search_label">Search:</string>
+    <string name="search">Search</string>
+    <string name="searching">Searching…</string>
+    <string name="recent_searches_label">Recent Searches</string>
+    <string name="no_recent_searches_label">You have no recent searches. Enter a search term above.</string>
+    <string name="quote">"</string>
+
+<!--    Accessibility-->
+    <string name="search_text_accessibility_hint">Enter a search term for photos</string>
+    <string name="search_button_accessibility_hint">Click to search for photos</string>
+    <string name="image_button_accessibility_hint">Click to view photo details</string>
+    <string name="back_button_accessibility_hint">Click to return to search screen</string>
+</resources>

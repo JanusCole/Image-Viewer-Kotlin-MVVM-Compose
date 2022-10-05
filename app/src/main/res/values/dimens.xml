@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="standard_font_size">14sp</dimen>
+    <dimen name="standard_padding_size_5dp">5dp</dimen>
+    <dimen name="saved_searches">5</dimen>
+</resources>
