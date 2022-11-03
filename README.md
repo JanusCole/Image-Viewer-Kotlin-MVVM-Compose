@@ -10,18 +10,3 @@ In this repo you'll find:<br>
 * Async image loading with the **[Coil-Compose](https://coil-kt.github.io/coil/compose/)** library.<br>
 * Search criteria caching using **[Proto Datastore](https://developer.android.com/topic/libraries/architecture/datastore)** for persistence.<br>
 * Dependency injection using **[Hilt](https://developer.android.com/jetpack/androidx/releases/hilt)** .<br>
-
-### Improvements over the 5 Hour Version include<br>
-• Replace the legacy XML Views UI with Jetpack Compose<br>
-• Replace the LiveData fields with MutableState<br>
-• Refactor the Retrofit code to use coroutines and better isolate components<br>
-• Implement dependency injection using Hilt<br>
-• Replace Picasso image loading with Coil-Compose<br>
-• Implement saved search persistence using Proto Datastore<br>
-• Add accessibility strings to input widgets<br>
-• Fixed text overflow and scrolling bugs on the Image Detail screen<br>
-
-Known Bugs:
-
-• The Search button stops working when the user returns from the Image Detail screen. No idea what's up with that.<br>
-• Needs better error handling<br>
